@@ -24,7 +24,8 @@ teh version we used is : *2.0.0.RELEASE*
   
   The *Controller.java* takes the requests and give response.
   You should always keeps these controllers file in same package or sub package of *Application.java* or else you will have to specifically point it using _@ComponentScan("packagename")_
- ##Testing Welcome Request.
+ 
+ ## Testing Welcome Request.
  All the controllers are hosted on *localhost:8080/*
  You can specify the controller using the RequestName is the *value* we specified in *RequestMapping*
  ```
@@ -35,5 +36,5 @@ teh version we used is : *2.0.0.RELEASE*
 	 }
  ```
  
- ###About me
+ ### About me
  * Hilal Kaldane
